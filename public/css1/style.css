@@ -1,0 +1,111 @@
+body {
+        margin: 0;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+        background: linear-gradient(45deg, #E1BEE7, #90CAF9);
+        color: white;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        animation: backgroundAnimation 5s infinite alternate;
+    }
+
+    @keyframes backgroundAnimation {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+    }
+
+.header {
+    text-align: center;
+    font-family: Verdana;
+    position: relative;
+    top: 50px;
+
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 130px;
+}
+
+.search-bar {
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    width: 400px;
+    font-size: 1em;
+    outline: none;
+    margin-right: 10px;
+}
+
+.search-button {
+    background-color: #5A5DF5;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1em;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #4649c1;
+}
+
+.video-link {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #82aaff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.auth-buttons a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.auth-buttons a:hover {
+    text-decoration: underline;
+}
+.container {
+    position: relative; /* Wajib untuk parent element */
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+}
+.icon {
+    position: absolute;
+    top: -190px; /* Atur posisi atas */
+    width: 250px;
+    height: 250px;
+}
+.responsive-image {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    right: 275px;
+    top: 58px;
+
+    
+}
+  
+
